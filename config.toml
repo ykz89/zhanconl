@@ -1,0 +1,36 @@
+baseURL = 'https://zhan.co.nl/'
+languageCode = 'en-us'
+title = 'Ying Kun Zhan'
+theme = "m10c"
+
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 1
+
+[params]
+    author = "Ying Kun Zhan"
+    description = "Father, software engineer, keyboard builder."
+    avatar = ""
+    menu_item_separator = " - "
+
+    [[params.social]]
+        icon = "github"
+        name = "My Github"
+        url = "https://github.com/ykz89"
+    [[params.social]]
+        icon = "linkedin"
+        name = "My LinkedIn"
+        url = "https://www.linkedin.com/in/ying-kun-z-06184473/"
+    [[params.social]]
+        icon = "mail"
+        name = "Send me an email"
+        url = "mailto:yingkun@zhan.co.nl"
+    [params.style]
+        darkestColor = "#242930"
+        darkColor = "#353b43"
+        lightColor = "#afbac4"
+        lightestColor = "#ffffff"
+        primaryColor = "#1db4ce"
