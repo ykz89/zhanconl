@@ -10,10 +10,15 @@ enableRobotsTXT = true
         name = "Home"
         url = "/"
         weight = 1
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+        weight = 2
 
 [params]
     author = "Ying Kun Zhan"
-    description = "Father, software engineer, keyboard builder."
+    description = "Dad, software engineer, keyboard builder."
     avatar = ""
     menu_item_separator = " - "
 
