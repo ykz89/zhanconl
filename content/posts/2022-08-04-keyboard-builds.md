@@ -3,16 +3,16 @@ title: Keyboard builds
 description: A list of keyboards I have built
 date: 2022-08-04T14:56:22.947Z
 preview: ""
-draft: true
+draft: false
 tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2022-08-04T22:27:15.777Z
+lastmod: 2022-08-05T21:49:56.309Z
 type: ""
 ---
 
-I started my split ergo keyboard journey in February 2021 and since then built a fair number of keyboards for myself and for a couple of friends.
+I started my split keyboard journey in February 2021 and since then built a fair number of keyboards for myself and for a couple of friends.
 
 ## Keyboards built:
 
@@ -101,7 +101,7 @@ I started my split ergo keyboard journey in February 2021 and since then built a
 - 3mm Stainless Steel Bottom Plates
 - NP Profile Blank Keycaps
 
-## BastardBK Dilemma
+### BastardKB Dilemma
 - Integrated RP2040 Microcontrollers
 - Cirque GlidePoint® Circle Trackpad Curved 35mm
 - Gazzew Boba U4 62g
