@@ -2,14 +2,12 @@
 title: Keyboard builds
 description: A list of keyboards I have built
 date: 2022-08-04T14:56:22.947Z
-preview: ""
 draft: false
 tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2022-08-10T13:39:46.935Z
-type: ""
+lastmod: 2022-08-11T15:06:34.422Z
 ---
 
 I started my split keyboard journey in February 2021 and since then built a fair number of keyboards for myself and for a couple of friends.
@@ -133,6 +131,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 
 {{< gallery class="content-gallery" >}}
   {{< img src="/images/CorneCherry1.gif" alt="Corne Cherry" >}}
+  {{< img src="/images/CorneCherry2.gif" alt="Corne Cherry" >}}
 {{< /gallery >}}
 
 ## BastardKB Charybdis 4x6
