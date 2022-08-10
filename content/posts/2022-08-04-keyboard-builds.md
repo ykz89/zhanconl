@@ -8,15 +8,15 @@ tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2022-08-09T14:26:34.426Z
+lastmod: 2022-08-10T13:39:46.935Z
 type: ""
 ---
 
 I started my split keyboard journey in February 2021 and since then built a fair number of keyboards for myself and for a couple of friends.
 
-## Keyboards built:
+{{< toc "Keyboards:" >}}
 
-### SplitKB Lily58 KB
+## SplitKB Lily58 KB
 - Elite-C Microcontrollers
 - Kailh Pro Light Green Clicky Switches
 - ALPS Industrial Rotary Encoders
@@ -26,9 +26,11 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - 128x64 OLED Displays
 - Underglow RGB LEDs
 
-![Lily58KB](/images/Lily58KB.jpg "Lily58KB")
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/Lily58KB.jpg" alt="Lily58KB" >}}
+{{< /gallery >}}
 
-### Kimiko #1
+## Kimiko #1
 - Elite-C Microcontrollers
 - Gazzew Boba U4T 62g
 - Acrylic Plate Case
@@ -37,9 +39,11 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Per Key RGB LEDs
 - Hot Swappable
 
-![Kimiko](/images/Kimiko1.jpg "Kimiko")
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/Kimiko1.jpg" alt="Kimiko" >}}
+{{< /gallery >}}
 
-### Kimiko #2
+## Kimiko #2
 - Elite-C Microcontrollers
 - Kailh Box White
 - Acrylic Plate Case
@@ -48,15 +52,21 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Per Key RGB LEDs
 - Hot Swappable
 
-![Kimiko](/images/Kimiko2.jpg "Kimiko")
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/Kimiko2.jpg" alt="Kimiko" >}}
+{{< /gallery >}}
 
-### Redox
+## Redox
 - Elite-C Microcontrollers
 - Gazzew Boba U4T 62g
 - Bamboo case by Falbatech
 - DSA Profile Keycaps
 
-### Lily58L
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/Redox.jpg" alt="Redox" >}}
+{{< /gallery >}}
+
+## Lily58L
 - Elite-C Microcontrollers
 - Gazzew Boba U4 62g
 - Acrylic Plate Case
@@ -64,11 +74,30 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Per Key RGB LEDs
 - Hot Swappable
 
-![Lily58L](/images/Lily58L1.jpeg "Lily58L")
-![Lily58L](/images/Lily58L2.jpeg "Lily58L")
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/Lily58L1.jpeg" alt="Lily58L" >}}
+  {{< img src="/images/Lily58L2.jpeg" alt="Lily58L" >}}
+{{< /gallery >}}
 
+## 2% Milk
+- Atmega32u4 Pro Micro Microcontroller
+- RGB LED
+- Kailh Box White
+- 3D Printed Case
+- DSA Keycaps
 
-### Corne LP Wireless
+## Dumbpad
+- Atmega32u4 Pro Micro Microcontroller
+- Kailh Box White
+- Cherry Profile Keycaps
+- ALPS Industrial Rotary Encoders
+- Knurled Metal Encoder Knobs
+
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/Dumbpad.gif" alt="Dumbpad" >}}
+{{< /gallery >}}
+
+## Corne LP Wireless
 - Nice!Nano V2 Microcontrollers
 - 301228 90mAh Batteries
 - MSK-12D19 Power Switch
@@ -77,10 +106,12 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - MBK Choc Glow Keycaps
 - Hot Swappable
 
-![Corne LP](/images/Corne1.jpg "Corne LP")
-![Corne LP](/images/Corne1_1.jpg "Corne LP")
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/Corne1.jpg" >}}
+  {{< img src="/images/Corne1_1.jpg" >}}
+{{< /gallery >}}
 
-### Corne LP Wired
+## Corne LP Wired
 - Elite-C Microcontrollers
 - Kailh Low Profile Choc White
 - Corne LP Case By Boardsource
@@ -88,9 +119,11 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Per Key & Underglow RGB LEDs
 - Hot Swappable
 
-![Corne LP](/images/Corne2.jpg "Corne LP")
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/Corne2.jpg" alt="Corne LP" >}}
+{{< /gallery >}}
 
-### Corne Cherry V2
+## Corne Cherry V2
 - Elite-C Microcontrollers
 - Gazzew Boba U4 Clear 62g
 - Acrylic Tenting Plates
@@ -98,9 +131,11 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Per Key & Underglow RGB LEDs
 - Hot Swappable
 
-<div style="width: 470px;height: 0px;position: relative;padding-bottom: 25%;"><iframe src="https://streamable.com/e/7k6sxj?autoplay=1" frameborder="0" width="100%" height="100%" allowfullscreen allow="autoplay" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;border:5px solid white;"></iframe></div>
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/CorneCherry1.gif" alt="Corne Cherry" >}}
+{{< /gallery >}}
 
-### BastardKB Charybdis 4x6
+## BastardKB Charybdis 4x6
 - Elite-C Microcontrollers
 - TTC Bluish White
 - PLA Prusament Galaxy 3D Printed Case & 30 Degree Tent
@@ -108,9 +143,11 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Per Key RGB LEDs
 - Trackball
 
-![Charybdis](/images/Charybdis.jpg "Charybdis")
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/Charybdis.jpg" alt="Charybdis" >}}
+{{< /gallery >}}
 
-### BastardKB Skeletyl
+## BastardKB Skeletyl
 - Nice!Nano V2 Microcontrollers
 - 301230 110 mAh Batteries
 - Gateron Oil Kings Hand Lubed
@@ -119,11 +156,26 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - 3mm Stainless Steel Bottom Plates
 - NP Profile Blank Keycaps
 
-![Skeletyl](/images/Skeletyl1.jpg "Skeletyl")
-![Skeletyl](/images/Skeletyl2.jpg "Skeletyl")
-![Skeletyl](/images/Skeletyl3.jpg "Skeletyl")
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/Skeletyl1.jpg" alt="Skeletyl" >}}
+  {{< img src="/images/Skeletyl2.jpg" alt="Skeletyl" >}}
+  {{< img src="/images/Skeletyl3.jpg" alt="Skeletyl" >}}
+{{< /gallery >}}
 
-### BastardKB Dilemma
+## BAMFK-1
+- BAMFK-1 PCB
+- 2 Horizontal Rotary Encoders
+- Acrylic Case
+- Piezo speaker
+- RGB LEDs
+- Novelkeys Big Switch Pale Blue Clicky
+
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/BAMFK1.jpg" alt="BAMFK1" >}}
+  {{< img src="/images/BAMFK1.gif" alt="BAMFK1" >}}
+{{< /gallery >}}
+
+## BastardKB Dilemma
 - Integrated RP2040 Microcontrollers
 - Cirque GlidePoint® Circle Trackpad Curved 35mm
 - Gazzew Boba U4 62g
@@ -131,24 +183,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - 128x32 OLED Display
 - PLA Prusament Galaxy 3D Printed Case
 
-### 2% Milk
-- Atmega32u4 Pro Micro Microcontroller
-- RGB LED
-- Kailh Box White
-- 3D Printed Case
-- DSA Keycaps
-
-### Dumbpad
-- Atmega32u4 Pro Micro Microcontroller
-- Kailh Box White
-- Cherry Profile Keycaps
-- ALPS Industrial Rotary Encoders
-- Knurled Metal Encoder Knobs
-
-### BAMFK-1
-- BAMFK-1 PCB
-- 2 Horizontal Rotary Encoders
-- Acrylic Case
-- Piezo speaker
-- RGB LEDs
-- Novelkeys Big Switch Pale Blue Clicky
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/Dilemma1.jpg" alt="Dilemma" >}}
+  {{< img src="/images/Dilemma2.jpg" alt="Dilemma" >}}
+{{< /gallery >}}

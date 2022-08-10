@@ -40,6 +40,3 @@ enableRobotsTXT = true
         lightColor = "#afbac4"
         lightestColor = "#ffffff"
         primaryColor = "#1db4ce"
-
-[markup.goldmark.renderer]
-    unsafe= true
