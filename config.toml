@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Ying Kun Zhan'
 theme = "m10c"
 enableRobotsTXT = true
+enableEmoji = true
 
 [menu]
     [[menu.main]]
