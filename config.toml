@@ -4,6 +4,7 @@ title = 'Ying Kun Zhan'
 theme = "m10c"
 enableRobotsTXT = true
 enableEmoji = true
+googleAnalytics = 'G-8P8VVD04MT'
 
 [menu]
     [[menu.main]]

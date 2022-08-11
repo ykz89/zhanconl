@@ -7,7 +7,7 @@ tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2022-08-11T15:12:05.214Z
+lastmod: 2022-08-11T20:57:56.035Z
 ---
 
 # {{< img src="/images/Dilemma/logo.png" alt="Dilemma" >}}
@@ -181,7 +181,7 @@ I opted for some leftover NP profile blank keycaps from KBDfans which I also use
 The left half looked rather empty, altho the exposed chip also has a nice feel to it. But to easily accommodate an OLED display I added some sockets.
 I only had this tiny 128x32 0.91 inch display so I stuck it on here, might try a bigger one later.
 
-### Conclusion
+## Conclusion
 
 {{< gallery class="content-gallery" >}}
   {{< img src="/images/Dilemma/_DSC1859.JPG" alt="End product" >}}
@@ -190,7 +190,7 @@ I only had this tiny 128x32 0.91 inch display so I stuck it on here, might try a
 I am satisfied with how easy it was doing this build, apart from the mistakes I made by not reading properly, that's a mistake I make more often. The build time is very fast since the diodes were pre-soldered.
 There were some issues with the I2C jumpers on the left side with this version, causing the OLED display to not work at first, but that was easily solved by bridging the pads on the other side, just took some time to figure out. This should have already been fixed, the 3D printed case is also being improved, so it is more stable and the reset button is more accessible.
 
-The trackpad is easy to use, I especially like the circular scroll, altho I do not see myself using it exclusively as a pointing device and ditching the mouse. But seeing as this board is more aimed as a portable board, it works well enough.
+The trackpad is easy to use and accurate, I especially like the circular scroll, nevertheless I do not see myself using it exclusively as a pointing device and ditching the mouse, and I gotta say that I'm not 100% used to using the thumb trackball of the Charybdis either. But seeing as this board is more aimed as a portable board, it works well enough for on the go (using manual mouse layer activation atm).
 
 For the 2 thumbkeys, I only used it for a week, I can live with missing the 3rd thumbkey on the right hand, but I'm having a harder time missing it on the left half. Perhaps it needs some more time and more tinkering with the keymap.
 

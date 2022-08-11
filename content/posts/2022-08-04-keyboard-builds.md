@@ -7,7 +7,7 @@ tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2022-08-11T15:06:34.422Z
+lastmod: 2022-08-11T21:27:19.834Z
 ---
 
 I started my split keyboard journey in February 2021 and since then built a fair number of keyboards for myself and for a couple of friends.
@@ -131,7 +131,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 
 {{< gallery class="content-gallery" >}}
   {{< img src="/images/CorneCherry1.gif" alt="Corne Cherry" >}}
-  {{< img src="/images/CorneCherry2.gif" alt="Corne Cherry" >}}
+  {{< img src="/images/CorneCherry2.jpg" alt="Corne Cherry" >}}
 {{< /gallery >}}
 
 ## BastardKB Charybdis 4x6
