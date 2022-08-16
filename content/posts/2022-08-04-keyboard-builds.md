@@ -7,7 +7,7 @@ tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2022-08-11T21:27:19.834Z
+lastmod: 2022-08-16T20:29:12.023Z
 ---
 
 I started my split keyboard journey in February 2021 and since then built a fair number of keyboards for myself and for a couple of friends.
@@ -29,16 +29,19 @@ I started my split keyboard journey in February 2021 and since then built a fair
 {{< /gallery >}}
 
 ## Kimiko #1
-- Elite-C Microcontrollers
+- Sparkfun Pro Micro RP2040 Microcontrollers
 - Gazzew Boba U4T 62g
 - Acrylic Plate Case
+- Wooden bottom plate
 - Cherry Profile Keycaps
-- 128x32 OLED Displays
+- 128x32 OLED Display
+- Cirque GlidePoint® Circle Trackpad Flat 40mm
 - Per Key RGB LEDs
 - Hot Swappable
 
 {{< gallery class="content-gallery" >}}
   {{< img src="/images/Kimiko1.jpg" alt="Kimiko" >}}
+  {{< img src="/images/upgrade_kimiko/_DSC1874.JPG" alt="upgraded" >}}
 {{< /gallery >}}
 
 ## Kimiko #2
