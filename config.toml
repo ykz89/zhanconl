@@ -17,6 +17,11 @@ googleAnalytics = 'G-8P8VVD04MT'
         name = "About"
         url = "/about"
         weight = 2
+    [[menu.main]]
+        identifier = "Keyboards"
+        name = "Keyboards"
+        url = "/posts/2022-08-04-keyboard-builds/"
+        weight = 3
 
 [params]
     author = "Ying Kun Zhan"
