@@ -6,7 +6,7 @@ tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2022-08-24T23:37:53.046Z
+lastmod: 2022-08-25T15:12:13.505Z
 ---
 
 # {{< img src="/images/cocot46plus/_DSC2015.JPG" alt="cocot46plus" >}}
@@ -202,6 +202,17 @@ I added the changes and my Cocot46plus is now running on RP2040!
 Many thanks to `bomtarnes`, `Drashna`, `sigprof` and `Dasky` from QMK Discord for helping me out with this issue!
 
 The working firmware with the changes can be found [here.](https://github.com/ykz89/qmk_firmware/commit/5f631849eb30067237aa9d2be39aa08802cb4b2a)
+
+### 3.3V vs 5V
+
+The RP2040 has a 3.3V voltage regulator, but since some components (ADNS-5050, SK6812MINI-E RGB LEDs, and EC12 Rotary encoder) have a working voltage of 5V and that's what the board originally was designed for, I supplied the power from the `RAW` pin on the RP2040 which provides max 5V at ~600mA instead of the regulated 3.3V `3V3` pin.
+
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/cocot46plus/_DSC1970.JPG" alt="RP2040" >}}
+  {{< img src="/images/cocot46plus/_DSC1974.JPG" alt="RP2040" >}}
+{{< /gallery >}}
+
+This was done by desoldering the `3V3` pin on the mcu and adding a bodge wire between `VCC` and `RAW` pads on the PCB.
 
 ## Conclusion
 
