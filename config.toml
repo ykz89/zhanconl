@@ -38,9 +38,14 @@ googleAnalytics = 'G-8P8VVD04MT'
         name = "My LinkedIn"
         url = "https://www.linkedin.com/in/ying-kun-z-06184473/"
     [[params.social]]
+        icon = "twitter"
+        name = "My Twitter"
+        url = "https://twitter.com/yingkun"
+    [[params.social]]
         icon = "mail"
         name = "Send me an email"
         url = "mailto:yingkun@zhan.co.nl"
+
     [params.style]
         darkestColor = "#242930"
         darkColor = "#353b43"
