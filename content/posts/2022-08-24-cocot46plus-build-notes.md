@@ -6,7 +6,7 @@ tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2022-08-25T15:12:13.505Z
+lastmod: 2022-09-02T22:56:27.139Z
 ---
 
 # {{< img src="/images/cocot46plus/_DSC2015.JPG" alt="cocot46plus" >}}
@@ -204,6 +204,14 @@ Many thanks to `bomtarnes`, `Drashna`, `sigprof` and `Dasky` from QMK Discord fo
 The working firmware with the changes can be found [here.](https://github.com/ykz89/qmk_firmware/commit/5f631849eb30067237aa9d2be39aa08802cb4b2a)
 
 ### 3.3V vs 5V
+
+{{< notice warning >}}
+Update:
+
+Do not do this! This may cause damage to the microcontroller. See [Cocot46plus and RP2040]({{< relref "2022-09-03-cocot46plus-and-rp2040" >}})
+
+I have personally reverted to using an Elite-C.
+{{< /notice >}}
 
 The RP2040 has a 3.3V voltage regulator, but since some components (ADNS-5050, SK6812MINI-E RGB LEDs, and EC12 Rotary encoder) have a working voltage of 5V and that's what the board originally was designed for, I supplied the power from the `RAW` pin on the RP2040 which provides max 5V at ~600mA instead of the regulated 3.3V `3V3` pin.
 
