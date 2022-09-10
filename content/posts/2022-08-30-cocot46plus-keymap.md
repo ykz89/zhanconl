@@ -1,13 +1,12 @@
 ---
 title: Cocot46plus Keymap
 description: Migrating my Charybdis keymap to Cocot46plus
-draft: true
 date: 2022-08-30T13:33:38.849Z
 tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2022-09-02T22:37:59.996Z
+lastmod: 2022-09-10T00:07:19.810Z
 ---
 
 # Keymap
@@ -41,3 +40,7 @@ And I will probably remove the excess mouse buttons on the pointer layer, since 
 ### Indicator LEDs
 
 Originally there are only four layers, I now have seven with perhaps more coming up. Every layer has its own color on the image above, I think it was nice to use these colors with the indicating LEDs too, altho the difference between yellow and orange, and pink and purple are pretty hard to see.
+
+### Upcoming changes
+
+I am using the cocot46plus with my desktop and my Steam Deck, so I want to be able to game with it. To do that I am going to add a gaming layer, but I still have to think about a layout that works for the games I play.
