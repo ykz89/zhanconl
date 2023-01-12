@@ -7,7 +7,7 @@ tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2022-08-24T23:37:15.899Z
+lastmod: 2023-01-12T09:31:19.470Z
 ---
 
 I started my split keyboard journey in February 2021 and since then built a fair number of keyboards for myself and for a couple of friends.
@@ -15,9 +15,9 @@ I started my split keyboard journey in February 2021 and since then built a fair
 {{< toc "Keyboards:" >}}
 
 ## aki27's Cocot46plus
-- Sparkfun Pro Micro RP2040 Microcontrollers
+- Elite-C  Microcontrollers
 - 34mm Trackball
-- Kailh Box White
+- Gazzew Boba U4 62g
 - MT3 Susuwatari Keycaps
 - Rotary Encoder
 - 128x32 OLED Display
@@ -54,13 +54,12 @@ I started my split keyboard journey in February 2021 and since then built a fair
 {{< /gallery >}}
 
 ## BastardKB Skeletyl
-- Nice!Nano V2 Microcontrollers
-- 301230 110 mAh Batteries
+- Splinky RP2040 Microcontrollers
 - Gateron Oil Kings Hand Lubed
 - Poron Switch Pads
 - 3D Printed Nylon MJF Case & 30 Degree Tenta
 - 3mm Stainless Steel Bottom Plates
-- NP Profile Blank Keycaps
+- DES Profile Blank Keycaps
 
 {{< gallery class="content-gallery" >}}
   {{< img src="/images/Skeletyl1.jpg" alt="Skeletyl" >}}
@@ -69,7 +68,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 {{< /gallery >}}
 
 ## BastardKB Charybdis 4x6
-- Elite-C Microcontrollers
+- Splinky RP2040 Microcontrollers
 - TTC Bluish White
 - PLA Prusament Galaxy 3D Printed Case & 30 Degree Tent
 - MT3 Susuwatari Keycaps
@@ -97,7 +96,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Elite-C Microcontrollers
 - Kailh Low Profile Choc White
 - Corne LP Case By Boardsource
-- MBK Low Profile Keycaps
+- MBK Choc Glow Keycaps
 - Per Key & Underglow RGB LEDs
 - Hot Swappable
 
@@ -111,7 +110,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - MSK-12D19 Power Switch
 - Kailh Low Profile Choc Robin
 - Corne LP Case By Boardsource
-- MBK Choc Glow Keycaps
+- MBK Low Profile Blank Keycap
 - Hot Swappable
 
 {{< gallery class="content-gallery" >}}
