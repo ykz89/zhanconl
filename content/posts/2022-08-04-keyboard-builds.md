@@ -7,15 +7,45 @@ tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2023-01-12T09:31:19.470Z
+lastmod: 2023-03-23T23:52:59.608Z
 ---
 
 I started my split keyboard journey in February 2021 and since then built a fair number of keyboards for myself and for a couple of friends.
 
 {{< toc "Keyboards:" >}}
 
+## Aurora Sweep (Commissioned)
+- Nice!Nano v2 Bluetooth Microcontrollers
+- 110 mAh 301230 3.7v Lithium Batteries
+- Kailh Choc Hot Swap Sockets
+- Kailh Choc Crystal Red & Pink Low Profile Switches
+- MBK Legend Glow R2 White Keycaps
+- 2 x Nice!View Memory-in-Pixel display
+- Aluminum Top Plate
+
+
+## BastardKB Dilemma v2
+- Integrated RP2040 Microcontrollers
+- Sunset Kailh Low Profile Choc Switches
+- MBK Legend Glow R2 White Keycaps
+- Cirque GlidePoint® Circle Trackpad Curved 35mm
+- RGB LEDs
+- 3D printed and Acrylic case
+- Low Profile EC11 Rotary Encoders
+
+## Splitkb.com Kyria rev 3
+- Liatris RP2040 Microcontrollers
+- Gazzew U4Tx soldered
+- PBT XVX Profile Keycaps
+- 128x64 OLED Display
+- RGB LEDs
+- Polished Stainless Steel Top Plate
+- Synthetic Sound Dampening Sheet
+- Frosted Acrylic Bottom Plate
+- Black Tenting Puck
+
 ## aki27's Cocot46plus
-- Elite-C  Microcontrollers
+- Elite-C Microcontrollers
 - 34mm Trackball
 - Gazzew Boba U4 62g
 - MT3 Susuwatari Keycaps
@@ -136,7 +166,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - 3D Printed Case
 - DSA Keycaps
 
-## Lily58L
+## Lily58L (Commissioned)
 - Elite-C Microcontrollers
 - Gazzew Boba U4 62g
 - Acrylic Plate Case
@@ -149,7 +179,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
   {{< img src="/images/Lily58L2.jpeg" alt="Lily58L" >}}
 {{< /gallery >}}
 
-## Redox
+## Redox (Commissioned)
 - Elite-C Microcontrollers
 - Gazzew Boba U4T 62g
 - Bamboo case by Falbatech
@@ -159,7 +189,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
   {{< img src="/images/Redox.jpg" alt="Redox" >}}
 {{< /gallery >}}
 
-## Kimiko #2
+## Kimiko #2 (Commissioned)
 - Elite-C Microcontrollers
 - Kailh Box White
 - Acrylic Plate Case
@@ -172,7 +202,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
   {{< img src="/images/Kimiko2.jpg" alt="Kimiko" >}}
 {{< /gallery >}}
 
-## Kimiko #1
+## Kimiko #1 (Sold)
 - Sparkfun Pro Micro RP2040 Microcontrollers
 - Gazzew Boba U4T 62g
 - Acrylic Plate Case
@@ -188,7 +218,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
   {{< img src="/images/upgrade_kimiko/_DSC1874.JPG" alt="upgraded" >}}
 {{< /gallery >}}
 
-## SplitKB Lily58 KB
+## SplitKB Lily58 KB (Sold)
 - Elite-C Microcontrollers
 - Kailh Pro Light Green Clicky Switches
 - ALPS Industrial Rotary Encoders
