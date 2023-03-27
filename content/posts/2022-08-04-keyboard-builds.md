@@ -7,7 +7,7 @@ tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2023-03-23T23:52:59.608Z
+lastmod: 2023-03-27T22:09:14.887Z
 ---
 
 I started my split keyboard journey in February 2021 and since then built a fair number of keyboards for myself and for a couple of friends.
@@ -22,6 +22,11 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - MBK Legend Glow R2 White Keycaps
 - 2 x Nice!View Memory-in-Pixel display
 - Aluminum Top Plate
+
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/Sweep.jpg" alt="Aurora Sweep" >}}
+{{< /gallery >}}
+
 
 
 ## BastardKB Dilemma v2
