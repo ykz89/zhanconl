@@ -7,7 +7,7 @@ tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2023-03-27T22:09:14.887Z
+lastmod: 2023-04-03T22:26:20.238Z
 ---
 
 I started my split keyboard journey in February 2021 and since then built a fair number of keyboards for myself and for a couple of friends.
@@ -24,7 +24,10 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Aluminum Top Plate
 
 {{< gallery class="content-gallery" >}}
-  {{< img src="/images/Sweep.jpg" alt="Aurora Sweep" >}}
+  {{< img src="/images/Sweep/IMG_4837.jpg" alt="Aurora Sweep" >}}
+  {{< img src="/images/Sweep/IMG_4834.jpg" alt="Aurora Sweep" >}}
+  {{< img src="/images/Sweep/IMG_4836.jpg" alt="Aurora Sweep" >}}
+  {{< img src="/images/Sweep/Sweep.jpg" alt="Aurora Sweep" >}}
 {{< /gallery >}}
 
 
