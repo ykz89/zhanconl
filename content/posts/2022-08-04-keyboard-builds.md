@@ -7,12 +7,84 @@ tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2023-04-03T22:26:20.238Z
+lastmod: 2023-07-05T19:55:00.173Z
 ---
 
 I started my split keyboard journey in February 2021 and since then built a fair number of keyboards for myself and for a couple of friends.
 
 {{< toc "Keyboards:" >}}
+
+## Fingerpunch Ximi
+- Integrated RP2040 Microcontrollers
+- Rotary Encoders
+- DRV2605L Linear Actuator Haptic Feedback Modules
+- Keliking KLJ-1102 Audio Buzzer
+- 3 Way Thumb Switches
+- Gazzew U4 Switches
+- MT3 Pulse Keycaps
+- Per Key RGB LEDs
+- Cirque GlidePoint® Circle Trackpad
+- Trackball (PMW3360 Sensor & Golden Perixx Trackball)
+- MJF Nylon Case
+
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/Ximi.jpg" alt="Ximi" >}}
+  {{< img src="/images/Ximi2.jpg" alt="Ximi" >}}
+  {{< img src="/images/Ximi3.jpg" alt="Ximi" >}}
+{{< /gallery >}}
+
+## GEIST's KLOR
+- Splinky RP2040 Microcontrollers (Bottom Mounted)
+- Rotary Encoders
+- DRV2605L Linear Actuator Haptic Feedback Modules
+- Keliking KLJ-1102 Audio Buzzer
+- Chosfox x Kailh Arctic Fox Switches
+- Per Key RGB LEDs
+- 128x64 OLED Display
+- MJF Nylon + Acrylic Case
+
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/KLOR.jpg" alt="KLOR" >}}
+  {{< img src="/images/KLOR2.jpg" alt="KLOR" >}}
+{{< /gallery >}}
+
+## tarohayashi's Kombucha
+- XIAO RP2040 Microcontroller
+- Joystick or Meishi Trackball Module
+- Chosfox x Kailh Arctic Fox Switches
+- Per Key RGB LEDs
+- Scrollwheel
+
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/Meishi_Kombucha.jpg" alt="Meishi Trackball Module and Kombucha" >}}
+  {{< img src="/images/Kombucha.jpg" alt="Kombucha" >}}
+{{< /gallery >}}
+
+## aki27's Meishi Trackball Module
+- ATmega32U4 Pro Micro Microcontroller
+- ADNS5050 Sensor
+- Gazzew U4 Switches
+- EVQWGD001 Rotary Encoder
+- Perixx Trackball
+- 128x32 OLED Display
+
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/Meishi_Kombucha.jpg" alt="Meishi Trackball Module and Kombucha" >}}
+{{< /gallery >}}
+
+## BastardKB Charybdis Nano
+- Integrated RP2040 Microcontrollers
+- Sunset Kailh Low Profile Choc Switches
+- MBK Legend Glow R2 White Keycaps
+- Cirque GlidePoint® Circle Trackpad Curved 35mm
+- Per Key RGB LEDs
+- 3D printed and Acrylic case
+- Low Profile EC11 Rotary Encoders
+
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/Cnano.jpg" alt="Charybdis Nano" >}}
+  {{< img src="/images/Cnano2.jpg" alt="Charybdis Nano" >}}
+{{< /gallery >}}
 
 ## Aurora Sweep (Commissioned)
 - Nice!Nano v2 Bluetooth Microcontrollers
@@ -30,27 +102,36 @@ I started my split keyboard journey in February 2021 and since then built a fair
   {{< img src="/images/Sweep/Sweep.jpg" alt="Aurora Sweep" >}}
 {{< /gallery >}}
 
-
-
 ## BastardKB Dilemma v2
 - Integrated RP2040 Microcontrollers
 - Sunset Kailh Low Profile Choc Switches
 - MBK Legend Glow R2 White Keycaps
 - Cirque GlidePoint® Circle Trackpad Curved 35mm
-- RGB LEDs
+- Per Key & Underglow RGB LEDs
 - 3D printed and Acrylic case
 - Low Profile EC11 Rotary Encoders
+
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/DilemmaV2.jpg" alt="Dilemma V2" >}}
+  {{< img src="/images/DilemmaV2_2.jpg" alt="Dilemma V2" >}}
+  {{< img src="/images/DilemmaV2_3.jpg" alt="Dilemma V2" >}}
+{{< /gallery >}}
 
 ## Splitkb.com Kyria rev 3
 - Liatris RP2040 Microcontrollers
 - Gazzew U4Tx soldered
 - PBT XVX Profile Keycaps
 - 128x64 OLED Display
-- RGB LEDs
+- Per Key & Underglow RGB LEDs
 - Polished Stainless Steel Top Plate
 - Synthetic Sound Dampening Sheet
 - Frosted Acrylic Bottom Plate
 - Black Tenting Puck
+
+{{< gallery class="content-gallery" >}}
+  {{< img src="/images/Kyria.jpg" alt="Kyria" >}}
+  {{< img src="/images/Kyria2.jpg" alt="Kyria" >}}
+{{< /gallery >}}
 
 ## aki27's Cocot46plus
 - Elite-C Microcontrollers
@@ -59,7 +140,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - MT3 Susuwatari Keycaps
 - Rotary Encoder
 - 128x32 OLED Display
-- RGB LEDs
+- Per Key & Underglow RGB LEDs
 
 {{< gallery class="content-gallery" >}}
   {{< img src="/images/cocot46plus/_DSC2015.JPG" alt="cocot46plus" >}}
