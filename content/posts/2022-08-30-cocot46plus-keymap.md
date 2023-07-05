@@ -6,7 +6,7 @@ tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2022-09-10T00:07:19.810Z
+lastmod: 2023-07-05T21:53:37.261Z
 ---
 
 # Keymap
@@ -18,7 +18,7 @@ Since I am not very familiar with the `c` language, I opted for the easiest solu
 
 This resulted in the following layout:
 
-{{< img src="/images/cocot46plus/cocot46plus-miryoku-inspired.png" alt="cocot46plus layout" >}}
+{{< gallery dir="/images/cocot46plus_keymap" />}}
 
 ### Changes from the Charybdis layout
 

@@ -6,10 +6,10 @@ tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2022-09-02T22:56:27.139Z
+lastmod: 2023-07-05T21:53:37.264Z
 ---
 
-# {{< img src="/images/cocot46plus/_DSC2015.JPG" alt="cocot46plus" >}}
+# {{< gallery dir="/images/cocot46plus_build/1" />}}
 
 {{< toc "Contents:" >}}
 
@@ -20,18 +20,7 @@ This is the first unibody I built and it seemed very interesting because its for
 
 ## Parts
 
-{{< gallery class="content-gallery" >}}
-    {{< img src="/images/cocot46plus/_DSC1876.JPG" alt="kit content" >}}
-    {{< img src="/images/cocot46plus/_DSC1880.JPG" alt="PCB front" >}}
-    {{< img src="/images/cocot46plus/_DSC1881.JPG" alt="PCB back" >}}
-    {{< img src="/images/cocot46plus/_DSC1882.JPG" alt="Switch plate" >}}
-    {{< img src="/images/cocot46plus/_DSC1884.JPG" alt="Bottom plate" >}}
-    {{< img src="/images/cocot46plus/_DSC1887.JPG" alt="OLED cover" >}}
-    {{< img src="/images/cocot46plus/_DSC1894.JPG" alt="Various parts" >}}
-    {{< img src="/images/cocot46plus/_DSC1897.JPG" alt="Trackball holder, mcu, sockets and knobs" >}}
-    {{< img src="/images/cocot46plus/_DSC1886.JPG" alt="Bottom cover" >}}
-    {{< img src="/images/cocot46plus/_DSC2017.JPG" alt="Lens holder" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/cocot46plus_build/2" />}}
 
 The keyboard kit contained the following:
 
@@ -72,31 +61,19 @@ Besides the sockets there isn't much to solder anyway, so it's no big deal.
 
 ### RGB Indicator LEDs
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/cocot46plus/_DSC1905.JPG" alt="RGB LEDs" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/cocot46plus_build/3" />}}
 
 The board has 2 RGB LEDs pointed up, those are used as layer indicators and thus will change color when changing layer.
 
 ### Trackball sensor
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/cocot46plus/_DSC1915.JPG" alt="ADNS-5050" >}}
-  {{< img src="/images/cocot46plus/_DSC1918.JPG" alt="Lenses" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/cocot46plus_build/4" />}}
 
 Next I soldered the trackball sensor. I actually received two sensors and two different lenses, but I am not sure why. The second lens was also of a different shape and didn't fit anyway. Perhaps a kitting mistake?
 
 ### Mill Max hot swap sockets and RP2040
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/cocot46plus/_DSC1920.JPG" alt="Mill Max sockets" >}}
-  {{< img src="/images/cocot46plus/_DSC1923.JPG" alt="Mill Max sockets soldered" >}}
-  {{< img src="/images/cocot46plus/_DSC1931.JPG" alt="Mill Max sockets pins" >}}
-  {{< img src="/images/cocot46plus/_DSC1926.JPG" alt="Sparkfun Pro Micro RP2040" >}}
-  {{< img src="/images/cocot46plus/_DSC1935.JPG" alt="Sparkfun Pro Micro RP2040 placed" >}}
-  {{< img src="/images/cocot46plus/_DSC1937.JPG" alt="Sparkfun Pro Micro RP2040 soldered" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/cocot46plus_build/5" />}}
 
 In the official build guide they use [spring loaded header pins](https://yushakobo.zendesk.com/hc/ja/articles/360044233974-%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%AB%E3%83%BC-%E3%82%B9%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%94%E3%83%B3%E3%83%98%E3%83%83%E3%83%80-%E3%81%AE%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91%E6%96%B9%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E4%B8%8B%E3%81%95%E3%81%84), which seems to be the more popular choice in the Japanese keyboard world. However, these are near impossible to get in Europe. I have used them in the past when I bought them from [Keycapsss](https://keycapsss.com/keyboard-parts/parts/91/spring-loaded-pin-headers-12-pin-2pcs-conthrough?c=11), but they are out of stock since a while with no indication when they will get back in stock. Besides the availability, the PCB has to support them, and there doesn't really seem to be a consensus on the mcu pin hole size here.
 
@@ -106,63 +83,43 @@ The keyboard is built for an Atmega32u4 microcontroller. Since those are getting
 
 ### LEDs
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/cocot46plus/_DSC1942.JPG" alt="Sensor LED" >}}
-  {{< img src="/images/cocot46plus/_DSC1945.JPG" alt="Working LEDs" >}}
-  {{< img src="/images/cocot46plus/_DSC1946.JPG" alt="Working LEDs" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/cocot46plus_build/6" />}}
 
 Soldered the LED for the sensor and checked if all LEDs are functional by plugging in the USB C cable.
 
 ### OLED socket and reset button
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/cocot46plus/_DSC1961.jpg" alt="OLED reset" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/cocot46plus_build/7" />}}
 
 Next step is to solder the socket for the OLED display and the reset button.
 
 ### Kailh hot swap sockets
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/cocot46plus/_DSC1951.JPG" alt="Hot swap sockets" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/cocot46plus_build/8" />}}
 
 Solder all the hot swap sockets. Since the bottom center will house a rotary encoder, no need to solder a hot swap socket there.
 
 ### Rotary encoder
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/cocot46plus/_DSC1965.JPG" alt="Rotary encoder" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/cocot46plus_build/9" />}}
 
 Fit in the rotary encoder and solder it.
 
 ### Lens holder
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/cocot46plus/_DSC2017.JPG" alt="Lens holder" >}}
-  {{< img src="/images/cocot46plus/_DSC2019.JPG" alt="Lens holder fitted" >}}
-  {{< img src="/images/cocot46plus/_DSC2020.JPG" alt="Lens holder oled" >}}
-  {{< img src="/images/cocot46plus/_DSC2027.JPG" alt="Lens holder oled" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/cocot46plus_build/10" />}}
 
 According to the build guide the lens should be secured with masking tape, but a simple [lens holder](https://aki27.booth.pm/items/3973033) can also be ordered, which holds the lens in place. On [Twitter](https://twitter.com/kepeoo) I found another [lens holder](https://www.thingiverse.com/thing:5458545) which is extended so it can also keep the OLED display straight. 
 
 ### Case assembly
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/cocot46plus/_DSC2005.JPG" alt="Switches placed" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/cocot46plus_build/11" />}}
 
 As you might have noticed I didn't take any pictures of the case assembly since the official build guide covers it pretty well. The only thing I would change is to place the 6mm spacers around the trackball area on the PCB before attaching the switch plate and the switches. Since there is very little space to place them afterwards.
 
 ### Trackball
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/cocot46plus/_DSC2000.JPG" alt="Trackball" >}}
-  {{< img src="/images/cocot46plus/_DSC1897.JPG" alt="Trackball holder, mcu, sockets and knobs" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/cocot46plus_build/12" />}}
 
 I got a 4-pack of trackballs before I got this keyboard, for the Charybdis, but didn't use them yet. Since I am using the Susuwatari keycaps, which are grey, I also opted for the grey trackball.
 
@@ -177,9 +134,8 @@ Usually adding
 CONVERT_TO=promicro_rp2040
 ``` 
 to `rules.mk` file is enough to convert an existing keyboard. However when I did this the OLED display showed as following:
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/cocot46plus/_DSC1976.JPG" alt="OLED issue" >}}
-{{< /gallery >}}
+
+{{< gallery dir="/images/cocot46plus_build/13" />}}
 
 And the trackball would react very choppy and all keys where acting strange, they would be either very delayed or not activate at all. I swapped in an Elite-C to check if it would have the same issues, but it did not.
 
@@ -215,18 +171,13 @@ I have personally reverted to using an Elite-C.
 
 The RP2040 has a 3.3V voltage regulator, but since some components (ADNS-5050, SK6812MINI-E RGB LEDs, and EC12 Rotary encoder) have a working voltage of 5V and that's what the board originally was designed for, I supplied the power from the `RAW` pin on the RP2040 which provides max 5V at ~600mA instead of the regulated 3.3V `3V3` pin.
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/cocot46plus/_DSC1970.JPG" alt="RP2040" >}}
-  {{< img src="/images/cocot46plus/_DSC1974.JPG" alt="RP2040" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/cocot46plus_build/14" />}}
 
 This was done by desoldering the `3V3` pin on the mcu and adding a bodge wire between `VCC` and `RAW` pads on the PCB.
 
 ## Conclusion
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/cocot46plus/_DSC2015.JPG" alt="cocot46plus" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/cocot46plus_build/1" />}}
 
 Because of the presoldered parts this build was very easy to do. Using spring loaded headers for the MCU would probably make it even easier, but they're hard to source in Europe. I was glad I socketed the microcontroller however, that way I could easily swap mcus to check if the issues I had were caused by the mcu.
 

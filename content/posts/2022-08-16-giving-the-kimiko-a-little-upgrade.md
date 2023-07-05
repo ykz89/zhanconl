@@ -6,7 +6,7 @@ tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2022-08-16T20:26:37.427Z
+lastmod: 2023-07-05T21:53:37.252Z
 ---
 
 Some Cirque trackpads came in, so time to give my Kimiko from [Keycapsss](https://keycapsss.com) an upgrade and while I'm at it also replace its microcontroller.
@@ -16,10 +16,7 @@ So I am replacing those with a couple of [SparkFun's Pro Micro RP2040](https://w
 
 The Elite-C has a power supply of 5V, since this build uses SK6812 Mini-E RGB leds we need to add a bodge wire to supply them with the raw 5V from the RP2040 instead of the usual 3.3V.
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/upgrade_kimiko/_DSC1869.JPG" alt="bodge wire" >}}
-  {{< img src="/images/upgrade_kimiko/_DSC1871.JPG" alt="rp2040" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/upgrade_kimiko/1" />}}
 
 Note that I did accidently add some solder to the 3V3 pin on the microcontroller, but that one is actually not connected.
 
@@ -48,6 +45,5 @@ CONVERT_TO=promicro_rp2040
 ```
 
 And this is the result!
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/upgrade_kimiko/_DSC1874.JPG" alt="result" >}}
-{{< /gallery >}}
+
+{{< gallery dir="/images/upgrade_kimiko/result" />}}

@@ -7,12 +7,13 @@ tags:
   - keyboard
 categories:
   - Keyboard
-lastmod: 2023-07-05T19:55:00.173Z
+lastmod: 2023-07-05T22:24:25.648Z
 ---
 
 I started my split keyboard journey in February 2021 and since then built a fair number of keyboards for myself and for a couple of friends.
 
 {{< toc "Keyboards:" >}}
+{{< load-photoswipe >}}
 
 ## Fingerpunch Ximi
 - Integrated RP2040 Microcontrollers
@@ -27,11 +28,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Trackball (PMW3360 Sensor & Golden Perixx Trackball)
 - MJF Nylon Case
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/Ximi.jpg" alt="Ximi" >}}
-  {{< img src="/images/Ximi2.jpg" alt="Ximi" >}}
-  {{< img src="/images/Ximi3.jpg" alt="Ximi" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/ximi" />}}
 
 ## GEIST's KLOR
 - Splinky RP2040 Microcontrollers (Bottom Mounted)
@@ -43,10 +40,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - 128x64 OLED Display
 - MJF Nylon + Acrylic Case
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/KLOR.jpg" alt="KLOR" >}}
-  {{< img src="/images/KLOR2.jpg" alt="KLOR" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/klor" />}}
 
 ## tarohayashi's Kombucha
 - XIAO RP2040 Microcontroller
@@ -55,10 +49,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Per Key RGB LEDs
 - Scrollwheel
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/Meishi_Kombucha.jpg" alt="Meishi Trackball Module and Kombucha" >}}
-  {{< img src="/images/Kombucha.jpg" alt="Kombucha" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/kombucha" />}}
 
 ## aki27's Meishi Trackball Module
 - ATmega32U4 Pro Micro Microcontroller
@@ -68,9 +59,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Perixx Trackball
 - 128x32 OLED Display
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/Meishi_Kombucha.jpg" alt="Meishi Trackball Module and Kombucha" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/meishi_trackball" />}}
 
 ## BastardKB Charybdis Nano
 - Integrated RP2040 Microcontrollers
@@ -81,10 +70,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - 3D printed and Acrylic case
 - Low Profile EC11 Rotary Encoders
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/Cnano.jpg" alt="Charybdis Nano" >}}
-  {{< img src="/images/Cnano2.jpg" alt="Charybdis Nano" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/cnano" />}}
 
 ## Aurora Sweep (Commissioned)
 - Nice!Nano v2 Bluetooth Microcontrollers
@@ -95,12 +81,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - 2 x Nice!View Memory-in-Pixel display
 - Aluminum Top Plate
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/Sweep/IMG_4837.jpg" alt="Aurora Sweep" >}}
-  {{< img src="/images/Sweep/IMG_4834.jpg" alt="Aurora Sweep" >}}
-  {{< img src="/images/Sweep/IMG_4836.jpg" alt="Aurora Sweep" >}}
-  {{< img src="/images/Sweep/Sweep.jpg" alt="Aurora Sweep" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/aurora_sweep" />}}
 
 ## BastardKB Dilemma v2
 - Integrated RP2040 Microcontrollers
@@ -111,11 +92,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - 3D printed and Acrylic case
 - Low Profile EC11 Rotary Encoders
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/DilemmaV2.jpg" alt="Dilemma V2" >}}
-  {{< img src="/images/DilemmaV2_2.jpg" alt="Dilemma V2" >}}
-  {{< img src="/images/DilemmaV2_3.jpg" alt="Dilemma V2" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/dilemma_v2" />}}
 
 ## Splitkb.com Kyria rev 3
 - Liatris RP2040 Microcontrollers
@@ -128,10 +105,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Frosted Acrylic Bottom Plate
 - Black Tenting Puck
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/Kyria.jpg" alt="Kyria" >}}
-  {{< img src="/images/Kyria2.jpg" alt="Kyria" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/kyria" />}}
 
 ## aki27's Cocot46plus
 - Elite-C Microcontrollers
@@ -142,9 +116,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - 128x32 OLED Display
 - Per Key & Underglow RGB LEDs
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/cocot46plus/_DSC2015.JPG" alt="cocot46plus" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/cocot46plus" />}}
 
 ## BastardKB Dilemma
 - Integrated RP2040 Microcontrollers
@@ -154,10 +126,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - 128x32 OLED Display
 - PLA Prusament Galaxy 3D Printed Case
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/Dilemma1.jpg" alt="Dilemma" >}}
-  {{< img src="/images/Dilemma2.jpg" alt="Dilemma" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/dilemma" />}}
 
 ## BAMFK-1
 - BAMFK-1 PCB
@@ -167,10 +136,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - RGB LEDs
 - Novelkeys Big Switch Pale Blue Clicky
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/BAMFK1.jpg" alt="BAMFK1" >}}
-  {{< img src="/images/BAMFK1.gif" alt="BAMFK1" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/bamfk1" />}}
 
 ## BastardKB Skeletyl
 - Splinky RP2040 Microcontrollers
@@ -180,13 +146,9 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - 3mm Stainless Steel Bottom Plates
 - DES Profile Blank Keycaps
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/Skeletyl1.jpg" alt="Skeletyl" >}}
-  {{< img src="/images/Skeletyl2.jpg" alt="Skeletyl" >}}
-  {{< img src="/images/Skeletyl3.jpg" alt="Skeletyl" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/skeletyl" />}}
 
-## BastardKB Charybdis 4x6
+## BastardKB Charybdis 4x6 (Sold)
 - Splinky RP2040 Microcontrollers
 - TTC Bluish White
 - PLA Prusament Galaxy 3D Printed Case & 30 Degree Tent
@@ -194,9 +156,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Per Key RGB LEDs
 - Trackball
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/Charybdis.jpg" alt="Charybdis" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/charybdis" />}}
 
 ## Corne Cherry V2
 - Elite-C Microcontrollers
@@ -206,10 +166,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Per Key & Underglow RGB LEDs
 - Hot Swappable
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/CorneCherry1.gif" alt="Corne Cherry" >}}
-  {{< img src="/images/CorneCherry2.jpg" alt="Corne Cherry" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/corne_cherry" />}}
 
 ## Corne LP Wired
 - Elite-C Microcontrollers
@@ -219,9 +176,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Per Key & Underglow RGB LEDs
 - Hot Swappable
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/Corne2.jpg" alt="Corne LP" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/corne_wired" />}}
 
 ## Corne LP Wireless
 - Nice!Nano V2 Microcontrollers
@@ -232,10 +187,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - MBK Low Profile Blank Keycap
 - Hot Swappable
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/Corne1.jpg" >}}
-  {{< img src="/images/Corne1_1.jpg" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/corne" />}}
 
 ## Dumbpad
 - Atmega32u4 Pro Micro Microcontroller
@@ -244,9 +196,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - ALPS Industrial Rotary Encoders
 - Knurled Metal Encoder Knobs
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/Dumbpad.gif" alt="Dumbpad" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/dumbpad" />}}
 
 ## 2% Milk
 - Atmega32u4 Pro Micro Microcontroller
@@ -263,10 +213,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Per Key RGB LEDs
 - Hot Swappable
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/Lily58L1.jpeg" alt="Lily58L" >}}
-  {{< img src="/images/Lily58L2.jpeg" alt="Lily58L" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/lily58l" />}}
 
 ## Redox (Commissioned)
 - Elite-C Microcontrollers
@@ -274,9 +221,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Bamboo case by Falbatech
 - DSA Profile Keycaps
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/Redox.jpg" alt="Redox" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/redox" />}}
 
 ## Kimiko #2 (Commissioned)
 - Elite-C Microcontrollers
@@ -287,9 +232,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Per Key RGB LEDs
 - Hot Swappable
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/Kimiko2.jpg" alt="Kimiko" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/kimiko2" />}}
 
 ## Kimiko #1 (Sold)
 - Sparkfun Pro Micro RP2040 Microcontrollers
@@ -302,10 +245,7 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - Per Key RGB LEDs
 - Hot Swappable
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/Kimiko1.jpg" alt="Kimiko" >}}
-  {{< img src="/images/upgrade_kimiko/_DSC1874.JPG" alt="upgraded" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/kimiko" />}}
 
 ## SplitKB Lily58 KB (Sold)
 - Elite-C Microcontrollers
@@ -317,6 +257,4 @@ I started my split keyboard journey in February 2021 and since then built a fair
 - 128x64 OLED Displays
 - Underglow RGB LEDs
 
-{{< gallery class="content-gallery" >}}
-  {{< img src="/images/Lily58KB.jpg" alt="Lily58KB" >}}
-{{< /gallery >}}
+{{< gallery dir="/images/lily58kb" />}}
