@@ -62,13 +62,13 @@ I started my split keyboard journey in February 2021 and since then built a fair
 {{< gallery dir="/images/meishi_trackball" />}}
 
 ## BastardKB Charybdis Nano
-- Integrated RP2040 Microcontrollers
-- Sunset Kailh Low Profile Choc Switches
-- MBK Legend Glow R2 White Keycaps
-- Cirque GlidePoint® Circle Trackpad Curved 35mm
+- Splinky RP2040 Microcontrollers
+- Gazzew U4 Switches (Spring swapped with 55g springs and lubed)
+- DES Keycaps printed in MJF nylon
 - Per Key RGB LEDs
-- 3D printed and Acrylic case
-- Low Profile EC11 Rotary Encoders
+- Custom Spray Painted Galvanized Steel Plates
+- Neewer Z-Flex Tripod Heads with a Magsafe adapter
+- Shiny Red Trackball from Perixx
 
 {{< gallery dir="/images/cnano" />}}
 
