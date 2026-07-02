@@ -1,0 +1,16 @@
+.gallery-carousel {
+  margin: 1.5rem 0;
+}
+
+.gallery-carousel .splide__slide {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-carousel .splide__slide img {
+  max-height: 70vh;
+  width: 100%;
+  object-fit: contain;
+}

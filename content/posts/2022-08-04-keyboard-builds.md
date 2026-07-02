@@ -13,7 +13,6 @@ lastmod: 2023-07-05T22:24:25.648Z
 I started my split keyboard journey in February 2021 and since then built a fair number of keyboards for myself and for a couple of friends.
 
 {{< toc "Keyboards:" >}}
-{{< load-photoswipe >}}
 
 ## Fingerpunch Ximi
 - Integrated RP2040 Microcontrollers

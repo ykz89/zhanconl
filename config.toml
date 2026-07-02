@@ -1,5 +1,5 @@
 baseURL = '//zhan.co.nl/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Ying Kun Zhan'
 theme = ["hugo-notice","m10c"]
 enableRobotsTXT = true
@@ -25,7 +25,7 @@ googleAnalytics = 'G-8P8VVD04MT'
 
 [params]
     author = "Ying Kun Zhan"
-    description = "Dad, software engineer, keyboard builder."
+    description = "Dad, software engineer, keyboard builder, 3D printer."
     avatar = ""
     menu_item_separator = " - "
 

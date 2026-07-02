@@ -70,11 +70,5 @@
       ]
     }
   ],
-  "frontMatter.taxonomy.tags": [
-    "keyboard"
-  ],
-  "frontMatter.taxonomy.categories": [
-    "Keyboard",
-    "Personal"
-  ]
+  "frontMatter.dashboard.openOnStart": true
 }
