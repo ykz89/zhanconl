@@ -1,0 +1,10 @@
+name: "BastardKB Dilemma Max"
+status: current
+weight: 270
+source: "https://bastardkb.com/product/dilemma-max/"
+specs:
+  - "Integrated RP2040 Microcontroller"
+  - "Kailh Choc Hot-swap"
+  - "Trackpad"
+  - "Display"
+  - "Per Key & Underglow RGB"

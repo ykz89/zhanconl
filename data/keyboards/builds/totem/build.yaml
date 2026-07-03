@@ -1,0 +1,8 @@
+name: "GEIST Totem"
+status: sold
+weight: 320
+source: "https://github.com/GEIGEIGEIST/TOTEM"
+specs:
+  - "Seeed XIAO nrf52840 Microcontroller"
+  - "Kailh Choc Low Profile Hot-swappable Switches"
+

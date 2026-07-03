@@ -47,7 +47,7 @@ The kit I received consisted of the following parts:
   {{< gallery dir="/images/dilemma_build/3" />}}
 
   There are 2 different cases for the Dilemma: One has a hole to support the SplitKB tenting puck while the other doesn't and is thinner.
-  On the second picture you can see the height difference: the 2 halves of the thin case stacked on top of eachother is almost as high as a single half of the tenting case.
+  On the second picture you can see the height difference: the 2 halves of the thin case stacked on top of each other is almost as high as a single half of the tenting case.
 
 - Mounting hardware for the case
 - Cirque GlidePoint® Circle Trackpad Curved 35mm
@@ -104,7 +104,7 @@ Installed the screw inserts into the trackpad assembly by placing them with a ho
 
 {{< gallery dir="/images/dilemma_build/10" />}}
 
-Installed the FPC cable on the trackpad, pass the cable through the PCB and install insert it in the connector on the pcb.
+Installed the FPC cable on the trackpad, pass the cable through the PCB and insert it in the connector on the PCB.
 
 {{< gallery dir="/images/dilemma_build/11" />}}
 

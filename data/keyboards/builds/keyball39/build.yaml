@@ -1,0 +1,10 @@
+name: "Keyball39"
+status: current
+weight: 185
+source: "https://github.com/Yowkees/keyball"
+specs:
+  - "Pro Micro Microcontrollers"
+  - "MX / Choc Hot-swap Switches"
+  - "34mm Trackball"
+  - "PMW3360 Optical Sensor"
+  - "OLED Displays"

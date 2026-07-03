@@ -1,0 +1,9 @@
+name: "Dumbpad"
+status: current
+weight: 170
+specs:
+  - "Atmega32u4 Pro Micro Microcontroller"
+  - "Kailh Box White"
+  - "Cherry Profile Keycaps"
+  - "ALPS Industrial Rotary Encoders"
+  - "Knurled Metal Encoder Knobs"

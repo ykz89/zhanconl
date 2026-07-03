@@ -1,0 +1,13 @@
+name: "Splitkb.com Kyria rev 3"
+status: current
+weight: 80
+specs:
+  - "Liatris RP2040 Microcontrollers"
+  - "Gazzew U4Tx soldered"
+  - "PBT XVX Profile Keycaps"
+  - "128x64 OLED Display"
+  - "Per Key & Underglow RGB LEDs"
+  - "Polished Stainless Steel Top Plate"
+  - "Synthetic Sound Dampening Sheet"
+  - "Frosted Acrylic Bottom Plate"
+  - "Black Tenting Puck"

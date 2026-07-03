@@ -18,7 +18,7 @@ The Elite-C has a power supply of 5V, since this build uses SK6812 Mini-E RGB le
 
 {{< gallery dir="/images/upgrade_kimiko/1" />}}
 
-Note that I did accidently add some solder to the 3V3 pin on the microcontroller, but that one is actually not connected.
+Note that I did accidentally add some solder to the 3V3 pin on the microcontroller, but that one is actually not connected.
 
 And then I added the trackpad following [the guide](https://keycapsss.com/help/cirque-trackpad) of Keycapsss.
 

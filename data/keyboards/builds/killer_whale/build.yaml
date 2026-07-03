@@ -1,0 +1,10 @@
+name: "Killer Whale"
+status: sold
+weight: 300
+source: "https://github.com/Taro-Hayashi/KillerWhale"
+specs:
+  - "Raspberry Pi Pico Microcontroller"
+  - "MX Hot-swap Switches"
+  - "34mm PMW3360 Trackball Module"
+  - "Scroll Wheel & Toggle Switch"
+  - "OLED Displays"

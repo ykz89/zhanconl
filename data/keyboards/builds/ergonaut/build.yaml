@@ -1,0 +1,8 @@
+name: "Ergonaut One"
+status: commissioned
+weight: 250
+source: "https://github.com/ergonautkb/one"
+specs:
+  - "Seeed XIAO nRF52840 Microcontroller"
+  - "Gateron Low Profile Hot-swappable Switches"
+  - "3D Printed Case"

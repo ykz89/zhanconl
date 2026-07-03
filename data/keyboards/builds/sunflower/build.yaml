@@ -1,0 +1,9 @@
+name: "Sunflower"
+status: current
+weight: 360
+source: "https://github.com/hide-key/testamatta/tree/main/sunflower"
+specs:
+  - "XIAO RP2040 Microcontroller"
+  - "Kailh Choc Low Profile Switches"
+  - "EC12 Rotary Encoder"
+  - "Alternative case by chewiedies"

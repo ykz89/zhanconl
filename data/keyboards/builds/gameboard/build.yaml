@@ -1,0 +1,10 @@
+name: "Gameboard"
+status: current
+weight: 400
+source: "https://github.com/zzeneg/gameboard"
+specs:
+  - "Waveshare RP2040 Zero Microcontroller"
+  - "Gateron Low Profile Hot-swappable Switches"
+  - "Per Key RGB LEDs"
+  - "5-way Switch & Push Buttons"
+  - "3D Printed Case"

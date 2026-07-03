@@ -1,0 +1,114 @@
+/* Card-grid layout for the Keyboard builds page (see the `builds`/`build` shortcodes).
+   Colors mirror [params.style] in config.toml. */
+
+.build-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.build-card {
+  background: #353b43;
+  border: 1px solid #242930;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.build-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+/* An open card spans the full row so its specs + gallery get room to breathe. */
+.build-card[open] {
+  grid-column: 1 / -1;
+}
+
+.build-card-summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.build-card-summary::-webkit-details-marker {
+  display: none;
+}
+
+.build-card-hero {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+.build-card-hero--empty {
+  aspect-ratio: 4 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background: #242930;
+  color: #afbac4;
+}
+
+.build-card-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.6rem 0.75rem;
+}
+
+.build-card-name {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.build-badge {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  color: #242930;
+  background: #1db4ce;
+}
+
+.build-badge[data-status="sold"] {
+  background: #afbac4;
+}
+
+.build-badge[data-status="commissioned"] {
+  background: #ffffff;
+}
+
+/* In progress — warm amber. */
+.build-badge[data-status="unfinished"] {
+  background: #e8c07a;
+}
+
+/* Given up on — muted red. */
+.build-badge[data-status="abandoned"] {
+  background: #d98a80;
+}
+
+.build-card-body {
+  padding: 0 0.75rem 0.75rem;
+}
+
+.build-card-body ul {
+  margin-top: 0.5rem;
+}
+
+.build-card-source {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.build-card-source a {
+  color: #1db4ce;
+}

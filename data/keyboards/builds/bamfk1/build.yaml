@@ -1,0 +1,10 @@
+name: "BAMFK-1"
+status: current
+weight: 110
+specs:
+  - "BAMFK-1 PCB"
+  - "2 Horizontal Rotary Encoders"
+  - "Acrylic Case"
+  - "Piezo speaker"
+  - "RGB LEDs"
+  - "Novelkeys Big Switch Pale Blue Clicky"

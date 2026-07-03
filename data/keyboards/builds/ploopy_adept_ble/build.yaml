@@ -1,0 +1,9 @@
+name: "Ploopy Adept BLE"
+status: current
+weight: 420
+source: "https://github.com/taichan1113/AdeptBLE"
+specs:
+  - "Ploopy Adept Trackball (BLE Mod)"
+  - "Seeed XIAO nRF52840 Microcontroller"
+  - "PMW3610 Optical Sensor"
+  - "Omron D2LS-21 Switches"

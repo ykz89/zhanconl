@@ -11,7 +11,7 @@ lastmod: 2023-07-05T21:53:37.261Z
 
 # Keymap
 
-I very much like the via keymap of the [Charybdis 3x5](https://github.com/qmk/qmk_firmware/tree/master/keyboards/bastardkb/charybdis/3x5/keymaps/via) created by [Charly](https://github.com/0xcharly). It is inspired on Miryoku which I used before changing to this particular layout, it seems to be more pointing device focussed with the pointer layer instead of the mouse layer. 
+I very much like the via keymap of the [Charybdis 3x5](https://github.com/qmk/qmk_firmware/tree/master/keyboards/bastardkb/charybdis/3x5/keymaps/via) created by [Charly](https://github.com/0xcharly). It is inspired by Miryoku which I used before changing to this particular layout, it seems to be more pointing device focussed with the pointer layer instead of the mouse layer. 
 
 So I wanted to migrate that layout to the Cocot46plus.
 Since I am not very familiar with the `c` language, I opted for the easiest solution and that is to borrow the code from the Charybdis and apply everything that is missing from the Cocot46plus.

@@ -1,0 +1,10 @@
+name: "aki27's Meishi Trackball Module"
+status: current
+weight: 40
+specs:
+  - "ATmega32U4 Pro Micro Microcontroller"
+  - "ADNS5050 Sensor"
+  - "Gazzew U4 Switches"
+  - "EVQWGD001 Rotary Encoder"
+  - "Perixx Trackball"
+  - "128x32 OLED Display"

@@ -11,4 +11,4 @@ My name is Ying Kun Zhan. I have a wife, a son, a few keyboards, and a few 3D pr
 
 I am a software engineer, mostly backend using Java and Kotlin. 
 
-You'll find me being around my family, play video games, build split mechanical keyboards, or tinker with 3D printers.
+You'll find me spending time with my family, playing video games, building split mechanical keyboards, or tinkering with 3D printers.

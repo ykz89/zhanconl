@@ -1,0 +1,11 @@
+name: "Splitkb.com Kyria rev 3 (build 2)"
+status: commissioned
+weight: 290
+source: "https://splitkb.com/products/kyria-rev3"
+specs:
+  - "Liatris RP2040 Microcontroller"
+  - "Gazzew Boba Black U4T MX Switches"
+  - "Per Key RGB"
+  - "Rotary Encoders"
+  - "128x64 OLED Displays"
+  - "Tenting pucks"

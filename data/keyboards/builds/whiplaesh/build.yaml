@@ -1,0 +1,10 @@
+name: "Whiplaesh"
+status: abandoned
+weight: 440
+source: "https://github.com/ykz89/Whiplaesh"
+specs:
+  - "32-key split/ergo board in a 23333+2 arrangement"
+  - "Nice!Nano v2 microcontroller"
+  - "Hot-swap or solder for Choc, Gateron LP, and MX"
+  - "VIK connector"
+  - "self-designed"

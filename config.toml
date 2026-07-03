@@ -6,6 +6,45 @@ enableRobotsTXT = true
 enableEmoji = true
 googleAnalytics = 'G-8P8VVD04MT'
 
+# Keyboard build data + images are co-located under data/keyboards/builds/<slug>/.
+# Two things have to happen for that layout to work:
+#   1. The `data` mount must exclude image/video files, otherwise Hugo's data
+#      loader tries to unmarshal each .jpg as a data file and the build fails.
+#   2. Those same folders are mounted into `static` so the images publish and
+#      resolve at /images/keyboards/builds/<slug>/ (Hugo never serves data/).
+# Declaring any project mount drops Hugo's defaults for the affected target
+# roots, so the standard component mounts are re-declared explicitly.
+[module]
+    [[module.mounts]]
+        source = "content"
+        target = "content"
+    [[module.mounts]]
+        source = "data"
+        target = "data"
+        # Whitelist real data formats so the co-located build images are never
+        # handed to the data loader (which would fail trying to unmarshal a .jpg).
+        files = ["**/*.yaml", "**/*.yml", "**/*.json", "**/*.toml"]
+    [[module.mounts]]
+        source = "layouts"
+        target = "layouts"
+    [[module.mounts]]
+        source = "assets"
+        target = "assets"
+    [[module.mounts]]
+        source = "i18n"
+        target = "i18n"
+    [[module.mounts]]
+        source = "archetypes"
+        target = "archetypes"
+    [[module.mounts]]
+        source = "static"
+        target = "static"
+    [[module.mounts]]
+        source = "data/keyboards/builds"
+        target = "static/images/keyboards/builds"
+        # Publish the images but keep the build.yaml files out of the built site.
+        files = ["! **/*.yaml"]
+
 [menu]
     [[menu.main]]
         identifier = "home"

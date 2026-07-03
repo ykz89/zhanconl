@@ -1,0 +1,9 @@
+name: "Dual Charybdis Nano"
+status: unfinished
+weight: 435
+source: "https://bastardkb.com/charybdis/"
+specs:
+  - "Dual BastardKB Charybdis Nano"
+  - "RP2040 Microcontroller"
+  - "CIY Naraka MX switches"
+  - "Magnetic bottom plate"

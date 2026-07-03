@@ -1,0 +1,9 @@
+name: "tarohayashi's Kombucha"
+status: current
+weight: 30
+specs:
+  - "XIAO RP2040 Microcontroller"
+  - "Joystick or Meishi Trackball Module"
+  - "Chosfox x Kailh Arctic Fox Switches"
+  - "Per Key RGB LEDs"
+  - "Scrollwheel"

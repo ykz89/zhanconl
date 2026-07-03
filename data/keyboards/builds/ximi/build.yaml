@@ -1,0 +1,15 @@
+name: "Fingerpunch Ximi"
+status: current
+weight: 10
+specs:
+  - "Integrated RP2040 Microcontrollers"
+  - "Rotary Encoders"
+  - "DRV2605L Linear Actuator Haptic Feedback Modules"
+  - "Keliking KLJ-1102 Audio Buzzer"
+  - "3 Way Thumb Switches"
+  - "Gazzew U4 Switches"
+  - "MT3 Pulse Keycaps"
+  - "Per Key RGB LEDs"
+  - "Cirque GlidePoint® Circle Trackpad"
+  - "Trackball (PMW3360 Sensor & Golden Perixx Trackball)"
+  - "MJF Nylon Case"

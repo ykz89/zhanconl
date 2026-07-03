@@ -1,0 +1,9 @@
+name: "DIY SpaceMouse"
+status: current
+weight: 430
+source: "https://www.printables.com/model/864950-open-source-spacemouse-space-mushroom-remix"
+specs:
+  - "6-DoF (6-axis) CAD controller; emulates a 3Dconnexion SpaceMouse"
+  - "ATmega32U4"
+  - "4x analog thumbstick modules"
+  - "3D-printed body"

@@ -1,0 +1,97 @@
+{{- /*
+  Data-driven keyboard build grid.
+
+  Every build is a folder under data/keyboards/builds/<slug>/ containing a
+  build.yaml (name, status, weight, specs) alongside its images. hugo.Data
+  exposes the yaml; readDir globs the same folder for images, which are served
+  from /images/keyboards/builds/<slug>/ via the module mount in config.toml.
+  Cards are ordered by each build.yaml's `weight`.
+
+  Splide's CSS/JS and the shared carousel/card CSS are emitted once per page
+  (Scratch guard). Each card's carousel mounts lazily the first time its
+  <details> opens — Splide sizes to zero width inside a closed details, so it
+  must not mount on load.
+*/ -}}
+{{- if not ($.Page.Scratch.Get "buildgridloaded") -}}
+{{- $.Page.Scratch.Set "buildgridloaded" 1 -}}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+<link rel="stylesheet" href={{ "css/gallery-carousel.css" | relURL }} />
+<link rel="stylesheet" href={{ "css/keyboard-cards.css" | relURL }} />
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.build-card').forEach(function (card) {
+      card.addEventListener('toggle', function () {
+        if (!card.open) return;
+        var el = card.querySelector('.gallery-carousel');
+        if (el && !el.dataset.mounted) {
+          el.dataset.mounted = '1';
+          new Splide(el, { lazyLoad: 'nearby', rewind: true, perPage: 1, gap: '1rem' }).mount();
+        }
+      });
+    });
+  });
+</script>
+{{- end -}}
+{{- $labels := dict "current" "Current" "sold" "Sold" "commissioned" "Commissioned" "unfinished" "Unfinished" "abandoned" "Abandoned" -}}
+{{- $builds := index hugo.Data "keyboards" "builds" -}}
+{{- $list := slice -}}
+{{- range $slug, $entry := $builds -}}
+  {{- with $entry.build -}}
+    {{- $list = $list | append (dict "slug" $slug "weight" (.weight | default 9999) "b" .) -}}
+  {{- end -}}
+{{- end -}}
+{{- $list = sort $list "weight" -}}
+<div class="build-grid">
+{{- range $list }}
+  {{- $b := .b -}}
+  {{- $status := $b.status | default "current" -}}
+  {{- $srcdir := printf "data/keyboards/builds/%s" .slug -}}
+  {{- $urldir := printf "images/keyboards/builds/%s" .slug -}}
+  {{- $images := slice -}}
+  {{- range (readDir $srcdir) -}}
+    {{- if findRE "(?i)\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)$" .Name -}}
+      {{- $images = $images | append .Name -}}
+    {{- end -}}
+  {{- end -}}
+  <details class="build-card" data-status="{{ $status }}">
+    <summary class="build-card-summary">
+      {{- if gt (len $images) 0 }}
+      <img class="build-card-hero" loading="lazy" src="{{ printf "%s/%s" $urldir (index $images 0) | relURL }}" alt="{{ $b.name }}" />
+      {{- else }}
+      <span class="build-card-hero build-card-hero--empty" aria-hidden="true">⌨</span>
+      {{- end }}
+      <span class="build-card-info">
+        <span class="build-card-name">{{ $b.name }}</span>
+        <span class="build-badge" data-status="{{ $status }}">{{ index $labels $status | default (humanize $status) }}</span>
+      </span>
+    </summary>
+    <div class="build-card-body">
+      {{- with $b.specs }}
+      <ul>
+        {{- range . }}
+        <li>{{ . }}</li>
+        {{- end }}
+      </ul>
+      {{- end }}
+      {{- with $b.source }}
+      <p class="build-card-source"><a href="{{ . }}" rel="noopener nofollow" target="_blank">Source&nbsp;↗</a></p>
+      {{- end }}
+      {{- if gt (len $images) 0 }}
+      <div class="splide gallery-carousel" role="group" aria-label="{{ $b.name }} gallery">
+        <div class="splide__track">
+          <ul class="splide__list">
+          {{- range $images }}
+            {{- $caption := . | replaceRE "\\..*" "" | humanize -}}
+            <li class="splide__slide">
+              <img data-splide-lazy="{{ printf "%s/%s" $urldir . | relURL }}" alt="{{ $caption }}" />
+            </li>
+          {{- end }}
+          </ul>
+        </div>
+      </div>
+      {{- end }}
+    </div>
+  </details>
+{{- end }}
+</div>

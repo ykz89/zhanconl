@@ -40,7 +40,7 @@ The keyboard kit contained the following:
 - 2 SK6812MINI-E RGB LEDs
 - Anti slip pads
 
-Besides the kits content I prepared:
+Besides the kit's contents I prepared:
 
 - 34mm trackballs (4-pack)
 - 3D printed rotary encoder knobs (also [from aki27](https://aki27.booth.pm/items/3973033))
@@ -137,7 +137,7 @@ to `rules.mk` file is enough to convert an existing keyboard. However when I did
 
 {{< gallery dir="/images/cocot46plus_build/13" />}}
 
-And the trackball would react very choppy and all keys where acting strange, they would be either very delayed or not activate at all. I swapped in an Elite-C to check if it would have the same issues, but it did not.
+And the trackball would react very choppy and all keys were acting strange, they would be either very delayed or not activate at all. I swapped in an Elite-C to check if it would have the same issues, but it did not.
 
 When enabling debugging on the RP2040 I found the following error coming from the OLED:
 ```c

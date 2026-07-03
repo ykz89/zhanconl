@@ -1,0 +1,10 @@
+name: "Kucheza"
+status: current
+weight: 340
+source: "https://fingerpunch.xyz/product/kucheza/"
+specs:
+  - "Integrated RP2040 Microcontroller"
+  - "MX / Choc Switches"
+  - "Per Key RGB"
+  - "3-way Thumb Switch"
+  - "Audio Buzzer"

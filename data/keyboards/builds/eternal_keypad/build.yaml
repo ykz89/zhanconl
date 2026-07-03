@@ -1,0 +1,8 @@
+name: "Eternal Keypad"
+status: current
+weight: 390
+source: "https://github.com/duckyb/eternal-keypad"
+specs:
+  - "Elite-C Microcontroller"
+  - "Hot-swap MX Switches"
+  - "RGB Underglow"

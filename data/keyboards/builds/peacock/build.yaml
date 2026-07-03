@@ -1,0 +1,9 @@
+name: "Peacock"
+status: current
+weight: 350
+source: "https://github.com/george-norton/peacock"
+specs:
+  - "Multi-touch Trackpad"
+  - "Integrated RP2040 Microcontroller"
+  - "mXT336UD MaxTouch Controller"
+  - "Choc / MX Switches & Rotary Encoders"

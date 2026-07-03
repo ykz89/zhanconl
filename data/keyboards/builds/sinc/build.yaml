@@ -1,0 +1,9 @@
+name: "Keebio Sinc"
+status: current
+weight: 310
+source: "https://keeb.io/products/sinc-rev-4-split-staggered-75-keyboard"
+specs:
+  - "Onboard RP2040 Microcontroller"
+  - "Gazzew Boba U4 MX Switches"
+  - "Per Key & Underglow RGB"
+  - "3D printed case by Tree Dog Studio"

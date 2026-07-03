@@ -1,0 +1,9 @@
+name: "011"
+status: current
+weight: 410
+source: "https://github.com/hide-key/testamatta/tree/main/keyboard/011"
+specs:
+  - "XIAO RP2040 Microcontroller"
+  - "Kailh Choc Low Profile Switches (MX Spacing)"
+  - "Unibody Angled Split PCB"
+  - "Exposed diodes (Minimelf)"

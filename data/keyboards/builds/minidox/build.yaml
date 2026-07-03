@@ -1,0 +1,8 @@
+name: "MiniDox"
+status: current
+weight: 380
+source: "https://github.com/That-Canadian/MiniDox_PCB"
+specs:
+  - "Pro Micro Microcontrollers"
+  - "MX Switches"
+  - "Soldered PCB"

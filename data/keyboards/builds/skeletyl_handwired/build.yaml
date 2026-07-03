@@ -1,0 +1,11 @@
+name: "BastardKB Skeletyl (Handwired)"
+status: unfinished
+weight: 280
+source: "https://github.com/Bastardkb/Skeletyl"
+specs:
+  - "SU120 per key PCBs"
+  - "RP2040 Microcontroller"
+  - "Hot Swap MX Switches"
+  - "3D Printed Case"
+  - "Mod by damselfly"
+  - "Still need wiring and controllers"

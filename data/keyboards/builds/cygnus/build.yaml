@@ -1,0 +1,9 @@
+name: "Cygnus"
+status: current
+weight: 330
+source: "https://github.com/juhakaup/keyboards/tree/main/Cygnus%20v1.0"
+specs:
+  - "Nice!Nano v2 Microcontroller"
+  - "CIY Naraka MX Switches"
+  - "SU120 per key PCBs"
+  - "3D Printed Case"

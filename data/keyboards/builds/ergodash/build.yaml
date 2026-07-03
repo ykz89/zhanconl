@@ -1,0 +1,7 @@
+name: "Ergodash"
+status: commissioned
+weight: 260
+source: "https://github.com/omkbd/ErgoDash"
+specs:
+  - "Nice!Nano v2 Microcontroller"
+  - "Gateron Smoothie MX Switches"

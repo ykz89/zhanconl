@@ -1,0 +1,12 @@
+name: "GEIST's KLOR"
+status: sold
+weight: 20
+specs:
+  - "Splinky RP2040 Microcontrollers (Bottom Mounted)"
+  - "Rotary Encoders"
+  - "DRV2605L Linear Actuator Haptic Feedback Modules"
+  - "Keliking KLJ-1102 Audio Buzzer"
+  - "Chosfox x Kailh Arctic Fox Switches"
+  - "Per Key RGB LEDs"
+  - "128x64 OLED Display"
+  - "MJF Nylon + Acrylic Case"

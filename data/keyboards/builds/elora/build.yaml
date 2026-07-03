@@ -1,0 +1,9 @@
+name: "splitkb.com Elora"
+status: current
+weight: 240
+source: "https://splitkb.com/products/elora"
+specs:
+  - "Onboard RP2040 Microcontroller"
+  - "Durock White Lotus MX Switches"
+  - "RGB Underglow"
+  - "Myriad modules"

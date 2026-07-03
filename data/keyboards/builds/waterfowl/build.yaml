@@ -1,0 +1,9 @@
+name: "Waterfowl"
+status: current
+weight: 370
+source: "https://keeb.io/products/waterfowl-36-key-split-keyboard-kit"
+specs:
+  - "Nice!nano v2 Microcontroller"
+  - "MX Hot-swap Switches"
+  - "Rotary & Roller Encoders"
+  - "Nice!view Displays"

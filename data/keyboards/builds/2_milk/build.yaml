@@ -1,0 +1,8 @@
+name: "Big 2% Milk"
+status: current
+weight: 180
+specs:
+  - "Atmega32u4 Pro Micro Microcontroller"
+  - "RGB LEDs"
+  - "Novelkeys Big Switch"
+  - "3D Printed Case"
