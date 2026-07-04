@@ -1,10 +1,12 @@
 {{- /*
-  Data-driven keyboard build grid.
+  Data-driven build grid, shared by the keyboard and 3D-printer pages.
 
-  Every build is a folder under data/keyboards/builds/<slug>/ containing a
-  build.yaml (name, status, weight, specs) alongside its images. hugo.Data
-  exposes the yaml; readDir globs the same folder for images, which are served
-  from /images/keyboards/builds/<slug>/ via the module mount in config.toml.
+  Pass `kind` to pick the dataset: {{< builds >}} (default "keyboards") or
+  {{< builds kind="printers" >}}. Every build is a folder under
+  data/<kind>/builds/<slug>/ containing a build.yaml (name, status, weight,
+  specs, optional source) alongside its images. hugo.Data exposes the yaml;
+  readDir globs the same folder for images, which are served from
+  /images/<kind>/builds/<slug>/ via the module mounts in config.toml.
   Cards are ordered by each build.yaml's `weight`.
 
   Splide's CSS/JS and the shared carousel/card CSS are emitted once per page
@@ -33,8 +35,10 @@
   });
 </script>
 {{- end -}}
+{{- $kind := .Get "kind" | default "keyboards" -}}
+{{- $placeholder := cond (eq $kind "printers") "🖨" "⌨" -}}
 {{- $labels := dict "current" "Current" "sold" "Sold" "commissioned" "Commissioned" "unfinished" "Unfinished" "abandoned" "Abandoned" -}}
-{{- $builds := index hugo.Data "keyboards" "builds" -}}
+{{- $builds := index hugo.Data $kind "builds" -}}
 {{- $list := slice -}}
 {{- range $slug, $entry := $builds -}}
   {{- with $entry.build -}}
@@ -46,8 +50,8 @@
 {{- range $list }}
   {{- $b := .b -}}
   {{- $status := $b.status | default "current" -}}
-  {{- $srcdir := printf "data/keyboards/builds/%s" .slug -}}
-  {{- $urldir := printf "images/keyboards/builds/%s" .slug -}}
+  {{- $srcdir := printf "data/%s/builds/%s" $kind .slug -}}
+  {{- $urldir := printf "images/%s/builds/%s" $kind .slug -}}
   {{- $images := slice -}}
   {{- range (readDir $srcdir) -}}
     {{- if findRE "(?i)\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)$" .Name -}}
@@ -59,7 +63,7 @@
       {{- if gt (len $images) 0 }}
       <img class="build-card-hero" loading="lazy" src="{{ printf "%s/%s" $urldir (index $images 0) | relURL }}" alt="{{ $b.name }}" />
       {{- else }}
-      <span class="build-card-hero build-card-hero--empty" aria-hidden="true">⌨</span>
+      <span class="build-card-hero build-card-hero--empty" aria-hidden="true">{{ $placeholder }}</span>
       {{- end }}
       <span class="build-card-info">
         <span class="build-card-name">{{ $b.name }}</span>
@@ -68,6 +72,14 @@
     </summary>
     <div class="build-card-body">
       {{- with $b.specs }}
+      <ul>
+        {{- range . }}
+        <li>{{ . }}</li>
+        {{- end }}
+      </ul>
+      {{- end }}
+      {{- with $b.planned }}
+      <p class="build-card-heading">Planned mods</p>
       <ul>
         {{- range . }}
         <li>{{ . }}</li>

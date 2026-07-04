@@ -1,0 +1,9 @@
+name: "Bambu Lab A1 Mini"
+status: sold
+weight: 30
+specs:
+  - "Bambu Lab A1 Mini"
+  - "Cartesian, 180 × 180 × 180 mm build volume"
+  - "Modified AMS Lite"
+  - "Sold after getting the Voron printer"
+source: "https://bambulab.com/en/a1-mini"

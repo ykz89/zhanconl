@@ -44,6 +44,11 @@ googleAnalytics = 'G-8P8VVD04MT'
         target = "static/images/keyboards/builds"
         # Publish the images but keep the build.yaml files out of the built site.
         files = ["! **/*.yaml"]
+    [[module.mounts]]
+        source = "data/printers/builds"
+        target = "static/images/printers/builds"
+        # Same co-location trick as keyboards: publish images, hide build.yaml.
+        files = ["! **/*.yaml"]
 
 [menu]
     [[menu.main]]
@@ -61,6 +66,11 @@ googleAnalytics = 'G-8P8VVD04MT'
         name = "Keyboards"
         url = "/posts/2022-08-04-keyboard-builds/"
         weight = 3
+    [[menu.main]]
+        identifier = "Printers"
+        name = "Printers"
+        url = "/posts/2026-07-04-3d-printers/"
+        weight = 4
 
 [params]
     author = "Ying Kun Zhan"

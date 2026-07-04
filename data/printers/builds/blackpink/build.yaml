@@ -1,0 +1,12 @@
+name: "blackpink"
+status: current
+weight: 20
+specs:
+  - "Printer for Ants — Stealth (Salad) Fork 180 × 180 × 150 mm build volume"
+  - "Cartographer probe"
+  - "A4T Toolhead"
+  - "Nevermore Mini Filter"
+planned:
+  - "Bed fans"
+  - "Insulation"
+source: "https://github.com/ykz89/Klipper-Backup/tree/blackpink"

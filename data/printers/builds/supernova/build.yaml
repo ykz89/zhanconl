@@ -1,0 +1,14 @@
+name: "Supernova"
+status: current
+weight: 10
+specs:
+  - "Voron 2.4 R2 — 300 × 300 × 300 mm build volume"
+  - "Cartographer probe"
+  - "A4T Toolhead"
+  - "Nevermore filter"
+planned:
+  - "AWD metal gantry"
+  - "Stealthmax"
+  - "EMU"
+  - "Blobifier or GBP"
+source: "https://github.com/ykz89/Klipper-Backup/tree/master"
